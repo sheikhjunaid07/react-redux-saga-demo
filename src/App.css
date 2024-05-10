@@ -24,6 +24,29 @@
   color: white;
 }
 
+.header {
+  background-color: orange;
+  height: 100px;
+}
+
+.card-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #fff;
+  top: -10%;
+  right: 0;
+}
+
 .App-link {
   color: #61dafb;
 }
